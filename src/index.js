@@ -1,5 +1,4 @@
 console.log('module 1.1');
-
 const products = [
     { name: "Radar", price: 1300, quantity: 4 },
     { name: "Scanner", price: 2700, quantity: 3 },
@@ -9,4 +8,9 @@ const products = [
   
   function getProductPrice(productName) {
     // Change code below this line
+    for (const product of products) {
+        if(product.name === productName);
+        return product.price;
+    }
+    return [];
  }
