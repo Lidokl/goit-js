@@ -12,5 +12,5 @@ const products = [
         if(product.name === productName);
         return product.price;
     }
-    return [];
+    
  }
