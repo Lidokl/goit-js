@@ -1,4 +1,8 @@
-console.log('module 1.1');
+
+
+ console.log('module 1.1');
+
+
 const products = [
     { name: "Radar", price: 1300, quantity: 4 },
     { name: "Scanner", price: 2700, quantity: 3 },
@@ -12,5 +16,5 @@ const products = [
         if(product.name === productName);
         return product.price;
     }
-    
+    return null;
  }
